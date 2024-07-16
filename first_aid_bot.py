@@ -3,9 +3,9 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import os
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.embeddings import SentenceTransformerEmbeddings
-from langchain.vectorstores import FAISS
-from langchain.docstore import InMemoryDocstore
+from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_community.docstore.in_memory import InMemoryDocstore
 
 class FirstAidBot:
     def __init__(self):

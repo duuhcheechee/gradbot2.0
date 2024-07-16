@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv
-from langchain import LLMChain
+from langchain.chains import LLMChain  # Updated import
 
 load_dotenv()
 
